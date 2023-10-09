@@ -1,0 +1,364 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: calc(1324px - 40px);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* Header blocki boshlandi */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 55px;
+}
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 25px;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: #263238;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header ul li a:hover {
+  text-decoration: underline;
+}
+.talk-btn {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 5px;
+  border: 2px solid #263238;
+  padding: 17px 57px;
+  background: #fff;
+}
+.talk-btn:hover {
+  transition: all 0.5s;
+  background-color: #263238;
+  color: #fff;
+}
+.talk-btn:active {
+  transform: scale(110%);
+}
+/* Header blogi tugadi */
+/* Languafe bloack tugadi */
+.language {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 51px;
+  background: url(../images/light.svg) no-repeat;
+  background-position: 424px 150px;
+}
+.language h1 {
+  max-width: 323px;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px; /* 125% */
+}
+
+.language p {
+  margin-top: 40px;
+  max-width: 550px;
+  color: #8f95a5;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.get-started {
+  color: #fff;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 15px;
+  background: #263238;
+  padding: 32px 117.5px;
+  margin-top: 61px;
+}
+/* Languafe bloack tugadi */
+.skills {
+  margin-top: 103px;
+}
+.skills h2 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px; /* 166.667% */
+  text-align: center;
+  margin-bottom: 96px;
+}
+.grid-container div img {
+  height: 300px;
+}
+.item2 {
+  grid-area: menu;
+  max-width: 434px;
+}
+.item3 {
+  grid-area: main;
+  max-width: 434px;
+}
+.item4 {
+  grid-area: right;
+  max-width: 434px;
+}
+.item5 {
+  grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "menu main main main right right"
+    "menu footer footer footer footer footer";
+  gap: 18px;
+}
+
+.grid-container > div {
+  padding: 35px 42px;
+  border-radius: 10px;
+  background: #f5f5f5;
+}
+.skills h3 {
+  color: #263238;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px; /* 266.667% */
+  margin-bottom: 5px;
+}
+.skills p {
+  color: #8f95a5;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 33px;
+}
+.skills button {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 5px;
+  background: #263238;
+  padding: 16.5px 63.5px;
+}
+.skills button:hover {
+  transition: all 0.5s;
+  color: #263238;
+  background-color: #fff;
+}
+.item5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Skills block boshlandi */
+/* About blockini boshlanishi */
+
+Frontend Web 3 | 16:00-18:00, [06.10.2023 17:25]
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 84px;
+}
+.about-left {
+  max-width: 635px;
+}
+.about h1 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px; /* 166.667% */
+  margin-bottom: 23px;
+}
+.about p {
+  color: #8f95a5;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 35px;
+}
+.data {
+  display: flex;
+  justify-content: space-between;
+}
+.data h2 {
+  color: #2a3246;
+  font-size: 48px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+  line-height: 80px; /* 166.667% */
+}
+.data p {
+  text-align: center;
+}
+.about img {
+  width: 500px;
+  object-fit: cover;
+}
+/* About blockini tugashi */
+/* Pricing blocki boshlandi */
+.pricing h4 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px; /* 266.667% */
+  text-align: center;
+  margin-bottom: 31px;
+}
+.prising-cart img {
+  margin: 0 auto;
+  height: 283px;
+  width: 391px;
+  object-fit: cover;
+  margin-bottom: 23px;
+}
+.prising-cart {
+  max-width: 420px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.prising-cart h4 {
+  color: #263238;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+}
+.prising-cart p {
+  color: #8f95a5;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 19px;
+}
+.prising-cart .narxi {
+  width: 240px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 0 0 0 18px;
+  border-radius: 5px;
+  background: #eee;
+  margin-top: 29px;
+}
+.prising-cart .narxi1 {
+  transform: translateY(-25px);
+}
+.narxi h5 {
+  color: #263238;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.narxi p {
+  color: #546269;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+.prising-carts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.trannlate-y {
+  transform: translateY(-15px);
+}
+.contact-us {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  max-width: calc(px - 40px);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.write h4 {
+  text-align: center;
+  color: #000;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 80px; /* 166.667% */
+}
+.image-left img{
+  width: 477px;
+height: 429px;
+flex-shrink: 0;
+margin: 0 auto;
+object-fit: cover;
+align-items: center;
+
+}
+
+.image-left {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.label-raight {
+  display: flex;
+  margin: 0 auto;
+}
+.label-raight p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #8F95A5;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left p {
+  padding: 0 54px 20px;
+  color: #8F95A5;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer-right img {
+  padding: 0 64px 1363px;
+}
+
